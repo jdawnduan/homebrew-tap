@@ -1,9 +1,8 @@
 class ClipboardHistory < Formula
   desc "Clipboard history manager with daemon and hotkey support"
   homepage "https://github.com/jdawnduan/clipboard_history"
-  url "https://github.com/jdawnduan/clipboard_history/archive/refs/tags/v0.1.1.tar.gz"
-  sha256 "a5a3f78053745ec00e690e2d916433d9e7c9ca4ee334328ee2d129407b5dc86d"
-  # Check for actual license
+  url "https://github.com/jdawnduan/clipboard_history/archive/refs/tags/v0.1.2.tar.gz"
+  sha256 "cbd2ac43d0e3b4ad9e50a805b64a54e52b6b03e5b8b3a5b6f3f123f282547a0f"
   license "MIT"
 
   depends_on "rust" => :build
